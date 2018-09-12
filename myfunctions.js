@@ -1,4 +1,3 @@
-<script>
 function loadXMLDoc(url) {
   var xhttp;
   if (window.XMLHttpRequest) {
@@ -16,4 +15,3 @@ function loadXMLDoc(url) {
   xhttp.open("GET", url, true);
   xhttp.send();
 }
-</script>
